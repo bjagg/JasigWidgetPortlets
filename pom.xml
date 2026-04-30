@@ -23,7 +23,7 @@
     <parent>
         <groupId>org.jasig.portlet</groupId>
         <artifactId>uportal-portlet-parent</artifactId>
-        <version>50</version>
+        <version>51</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
@@ -137,11 +137,6 @@
                 <groupId>commons-io</groupId>
                 <artifactId>commons-io</artifactId>
                 <version>2.22.0</version>
-            </dependency>
-            <dependency>
-                <groupId>commons-lang</groupId>
-                <artifactId>commons-lang</artifactId>
-                <version>2.6</version>
             </dependency>
             <dependency>
                 <groupId>org.dom4j</groupId>
@@ -480,8 +475,8 @@
             <version>2.22.0</version>
         </dependency>
         <dependency>
-            <groupId>commons-lang</groupId>
-            <artifactId>commons-lang</artifactId>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
         </dependency>
         <dependency>
             <groupId>org.dom4j</groupId>
